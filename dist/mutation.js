@@ -21,6 +21,19 @@ const FooMutation2 = {};
 const FooMutation3 = {};
 const FooMutation4 = {};
 
+// src/modules/bar/mutations.ts
+const mutations_exports = {};
+__export(mutations_exports, {
+  BarMutation1: () => BarMutation1,
+  BarMutation2: () => BarMutation2,
+  BarMutation3: () => BarMutation3,
+  BarMutation4: () => BarMutation4
+});
+const BarMutation1 = {};
+const BarMutation2 = {};
+const BarMutation3 = {};
+const BarMutation4 = {};
+
 // src/mutation.ts
 __export(exports, {
   mutation: () => mutation
