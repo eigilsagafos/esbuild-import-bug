@@ -6,7 +6,7 @@
     },
     "scripts": {
         "build:schema": "yarn esbuild --bundle src/schema.ts --outfile=dist/schema.js --platform=node",
-        "build:mutation": "yarn esbuild --bundle src/schema.ts --outfile=dist/schema.js --platform=node"
+        "build:mutation": "yarn esbuild --bundle src/mutation.ts --outfile=dist/mutation.js --platform=node"
     },
     "dependencies": {
         "graphql": "14.6.0"
