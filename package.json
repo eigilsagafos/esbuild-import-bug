@@ -1,0 +1,17 @@
+{
+    "name": "testing",
+    "version": "0.0.1",
+    "engines": {
+        "node": ">=12"
+    },
+    "scripts": {
+        "build": "yarn esbuild --bundle src/schema.ts --outfile=out.js --platform=node --target=es2020  --external:aws-sdk"
+    },
+    "dependencies": {
+        "graphql": "14.6.0"
+    },
+    "devDependencies": {
+        "esbuild": "0.4.12",
+        "typescript": "3.9.5"
+    }
+}
