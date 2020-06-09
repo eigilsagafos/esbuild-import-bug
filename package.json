@@ -5,7 +5,8 @@
         "node": ">=12"
     },
     "scripts": {
-        "build": "yarn esbuild --bundle src/schema.ts --outfile=out.js --platform=node --target=es2020  --external:aws-sdk"
+        "build:schema": "yarn esbuild --bundle src/schema.ts --outfile=dist/schema.js --platform=node",
+        "build:mutation": "yarn esbuild --bundle src/schema.ts --outfile=dist/schema.js --platform=node"
     },
     "dependencies": {
         "graphql": "14.6.0"
