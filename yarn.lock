@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-esbuild@0.4.12:
-  version "0.4.12"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.4.12.tgz#64adc0daca95173f2c7a2976d4087b4913366ac3"
-  integrity sha512-GzHmXpSBRlj9zYEShoPsTOQDC09cLwjDUU5da2RkZHInlhHoJxyLbYFdW1Z24SAmCNpL1ilvbREiCjl9OWCXBA==
+esbuild@0.4.13:
+  version "0.4.13"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.4.13.tgz#ce9c6efddcb131985a47ff5e8f935be7dfd723ce"
+  integrity sha512-TZxDdrP+q1X0iypx1zzBkxiiBfsonUOA3HvJFthIfdZNBgZ5b06FVleiCXUiDFV9BadzWW3O6j1wF8P9gG0aWg==
 
 graphql@14.6.0:
   version "14.6.0"

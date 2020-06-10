@@ -6,13 +6,14 @@
     },
     "scripts": {
         "build:schema": "yarn esbuild --bundle src/schema.ts --outfile=dist/schema.js --platform=node",
-        "build:mutation": "yarn esbuild --bundle src/mutation.ts --outfile=dist/mutation.js --platform=node"
+        "build:mutation": "yarn esbuild --bundle src/mutation.ts --outfile=dist/mutation.js --platform=node",
+        "build:issue2": "yarn esbuild --bundle issue2/src/index.ts --outfile=issue2/dist/out.js --platform=node"
     },
     "dependencies": {
         "graphql": "14.6.0"
     },
     "devDependencies": {
-        "esbuild": "0.4.12",
+        "esbuild": "0.4.13",
         "typescript": "3.9.5"
     }
 }
